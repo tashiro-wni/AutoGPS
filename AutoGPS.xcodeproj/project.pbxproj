@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9C086191C77056300BCD150 /* Purr.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F9C086181C77056300BCD150 /* Purr.aiff */; };
+		F9C0861F1C7AC06500BCD150 /* WNHTTPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C0861C1C7AC06500BCD150 /* WNHTTPLoader.m */; };
+		F9C086201C7AC06500BCD150 /* WNJsonDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C0861E1C7AC06500BCD150 /* WNJsonDataLoader.m */; };
+		F9C086241C7AC0EB00BCD150 /* NSObject+FRTypeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C086231C7AC0EB00BCD150 /* NSObject+FRTypeTest.m */; };
+		F9ED108A1C71BA7500AEBFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED10891C71BA7500AEBFDC /* AppDelegate.swift */; };
+		F9ED108C1C71BA7500AEBFDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED108B1C71BA7500AEBFDC /* ViewController.swift */; };
+		F9ED108F1C71BA7500AEBFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9ED108D1C71BA7500AEBFDC /* Main.storyboard */; };
+		F9ED10911C71BA7500AEBFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9ED10901C71BA7500AEBFDC /* Assets.xcassets */; };
+		F9ED10941C71BA7500AEBFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9ED10921C71BA7500AEBFDC /* LaunchScreen.storyboard */; };
+		F9ED109C1C71BA8900AEBFDC /* AutoGPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED109B1C71BA8900AEBFDC /* AutoGPS.swift */; };
+		F9ED109E1C71C9E300AEBFDC /* DebugLog.all.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ED109D1C71C9E300AEBFDC /* DebugLog.all.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9C086181C77056300BCD150 /* Purr.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Purr.aiff; sourceTree = "<group>"; };
+		F9C0861A1C7AC06400BCD150 /* AutoGPS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoGPS-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9C0861B1C7AC06500BCD150 /* WNHTTPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNHTTPLoader.h; sourceTree = "<group>"; };
+		F9C0861C1C7AC06500BCD150 /* WNHTTPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNHTTPLoader.m; sourceTree = "<group>"; };
+		F9C0861D1C7AC06500BCD150 /* WNJsonDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNJsonDataLoader.h; sourceTree = "<group>"; };
+		F9C0861E1C7AC06500BCD150 /* WNJsonDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNJsonDataLoader.m; sourceTree = "<group>"; };
+		F9C086221C7AC0EB00BCD150 /* NSObject+FRTypeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FRTypeTest.h"; sourceTree = "<group>"; };
+		F9C086231C7AC0EB00BCD150 /* NSObject+FRTypeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FRTypeTest.m"; sourceTree = "<group>"; };
+		F9ED10861C71BA7500AEBFDC /* AutoGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9ED10891C71BA7500AEBFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9ED108B1C71BA7500AEBFDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9ED108E1C71BA7500AEBFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9ED10901C71BA7500AEBFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9ED10931C71BA7500AEBFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9ED10951C71BA7500AEBFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9ED109B1C71BA8900AEBFDC /* AutoGPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoGPS.swift; sourceTree = "<group>"; };
+		F9ED109D1C71C9E300AEBFDC /* DebugLog.all.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugLog.all.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9ED10831C71BA7500AEBFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9C086211C7AC07F00BCD150 /* DataLoader */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0861B1C7AC06500BCD150 /* WNHTTPLoader.h */,
+				F9C0861C1C7AC06500BCD150 /* WNHTTPLoader.m */,
+				F9C0861D1C7AC06500BCD150 /* WNJsonDataLoader.h */,
+				F9C0861E1C7AC06500BCD150 /* WNJsonDataLoader.m */,
+				F9C086221C7AC0EB00BCD150 /* NSObject+FRTypeTest.h */,
+				F9C086231C7AC0EB00BCD150 /* NSObject+FRTypeTest.m */,
+			);
+			name = DataLoader;
+			sourceTree = "<group>";
+		};
+		F9ED107D1C71BA7500AEBFDC = {
+			isa = PBXGroup;
+			children = (
+				F9ED10881C71BA7500AEBFDC /* AutoGPS */,
+				F9ED10871C71BA7500AEBFDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9ED10871C71BA7500AEBFDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED10861C71BA7500AEBFDC /* AutoGPS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9ED10881C71BA7500AEBFDC /* AutoGPS */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0861A1C7AC06400BCD150 /* AutoGPS-Bridging-Header.h */,
+				F9ED10891C71BA7500AEBFDC /* AppDelegate.swift */,
+				F9ED108B1C71BA7500AEBFDC /* ViewController.swift */,
+				F9ED109B1C71BA8900AEBFDC /* AutoGPS.swift */,
+				F9ED109D1C71C9E300AEBFDC /* DebugLog.all.swift */,
+				F9C086211C7AC07F00BCD150 /* DataLoader */,
+				F9ED108D1C71BA7500AEBFDC /* Main.storyboard */,
+				F9ED10901C71BA7500AEBFDC /* Assets.xcassets */,
+				F9ED10921C71BA7500AEBFDC /* LaunchScreen.storyboard */,
+				F9ED10951C71BA7500AEBFDC /* Info.plist */,
+				F9C086181C77056300BCD150 /* Purr.aiff */,
+			);
+			path = AutoGPS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9ED10851C71BA7500AEBFDC /* AutoGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9ED10981C71BA7500AEBFDC /* Build configuration list for PBXNativeTarget "AutoGPS" */;
+			buildPhases = (
+				F9ED10821C71BA7500AEBFDC /* Sources */,
+				F9ED10831C71BA7500AEBFDC /* Frameworks */,
+				F9ED10841C71BA7500AEBFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoGPS;
+			productName = AutoGPS;
+			productReference = F9ED10861C71BA7500AEBFDC /* AutoGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9ED107E1C71BA7500AEBFDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Weathernews;
+				TargetAttributes = {
+					F9ED10851C71BA7500AEBFDC = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F9ED10811C71BA7500AEBFDC /* Build configuration list for PBXProject "AutoGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9ED107D1C71BA7500AEBFDC;
+			productRefGroup = F9ED10871C71BA7500AEBFDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9ED10851C71BA7500AEBFDC /* AutoGPS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9ED10841C71BA7500AEBFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9ED10941C71BA7500AEBFDC /* LaunchScreen.storyboard in Resources */,
+				F9ED10911C71BA7500AEBFDC /* Assets.xcassets in Resources */,
+				F9C086191C77056300BCD150 /* Purr.aiff in Resources */,
+				F9ED108F1C71BA7500AEBFDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9ED10821C71BA7500AEBFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9ED108C1C71BA7500AEBFDC /* ViewController.swift in Sources */,
+				F9C086201C7AC06500BCD150 /* WNJsonDataLoader.m in Sources */,
+				F9C0861F1C7AC06500BCD150 /* WNHTTPLoader.m in Sources */,
+				F9ED109E1C71C9E300AEBFDC /* DebugLog.all.swift in Sources */,
+				F9ED109C1C71BA8900AEBFDC /* AutoGPS.swift in Sources */,
+				F9ED108A1C71BA7500AEBFDC /* AppDelegate.swift in Sources */,
+				F9C086241C7AC0EB00BCD150 /* NSObject+FRTypeTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9ED108D1C71BA7500AEBFDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9ED108E1C71BA7500AEBFDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9ED10921C71BA7500AEBFDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9ED10931C71BA7500AEBFDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9ED10961C71BA7500AEBFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9ED10971C71BA7500AEBFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9ED10991C71BA7500AEBFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AutoGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weathernews.AutoGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoGPS/AutoGPS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9ED109A1C71BA7500AEBFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AutoGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weathernews.AutoGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoGPS/AutoGPS-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9ED10811C71BA7500AEBFDC /* Build configuration list for PBXProject "AutoGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9ED10961C71BA7500AEBFDC /* Debug */,
+				F9ED10971C71BA7500AEBFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9ED10981C71BA7500AEBFDC /* Build configuration list for PBXNativeTarget "AutoGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9ED10991C71BA7500AEBFDC /* Debug */,
+				F9ED109A1C71BA7500AEBFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9ED107E1C71BA7500AEBFDC /* Project object */;
+}
