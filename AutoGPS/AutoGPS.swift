@@ -30,9 +30,15 @@ class AutoGPS : NSObject, CLLocationManagerDelegate
     var gpslat = 0.0
     var gpslon = 0.0
     var gpsDate :NSDate?
+    
+    var authorizationStatus :CLAuthorizationStatus {
+        return CLLocationManager.authorizationStatus()
+    }
+
     var autoGPSsupporting :Bool {
         return CLLocationManager.significantLocationChangeMonitoringAvailable()
     }
+
     var autoGPSenabled :Bool {
         get {
             return NSUserDefaults.standardUserDefaults().boolForKey(defaultsKey_AutoGPSenabled)
